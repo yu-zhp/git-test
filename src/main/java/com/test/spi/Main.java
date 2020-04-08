@@ -21,5 +21,6 @@ public class Main {
         String me = MessageFormat.format(bundle.getString("ParameterIsNull"), "receiptEnum");
 
         System.out.println(me);
+        System.gc();
     }
 }
