@@ -16,7 +16,7 @@ public class Main {
 
         ResourceBundle bundle = ResourceBundle.getBundle("common",Locale.getDefault());
 
-         bundle = ResourceBundle.getBundle("common",Locale.JAPAN);
+        bundle = ResourceBundle.getBundle("common",Locale.JAPAN);
 
         String me = MessageFormat.format(bundle.getString("ParameterIsNull"), "receiptEnum");
 
